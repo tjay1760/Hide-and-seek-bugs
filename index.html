@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/c6cb015206.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="drop-down-menu hidden-menu my-page"> 
+        <i class="fa-regular fa-x dropdown-x-icon"></i>
+        <ul class="nav-dropdown">
+            <li class="nav-dropdown-item"><a href="#my-work" class="nav-dropdown-item-link" href="#">Portfolio</a></li>
+            <li class="nav-dropdown-item"><a href="#about-group" class="nav-dropdown-item-link" href="#">About</a></li>
+            <li class="nav-dropdown-item"><a href="#contacts" class="nav-dropdown-item-link" href="#">Contact</a></li>
+        </ul>
+    </div>
+    <header class="my-page">
+        <a class="logo" href="#">
+            John Murianki
+        </a>
+        <nav class="hamburger-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </nav>
+        <ul class="desk-nav">
+            <li class="desk-nav-item"><a href="#my-work" class="nav-link">Portfolio</a></li>
+            <li class="desk-nav-item"><a href="#about-group" class="nav-link">About</a></li>
+            <li class="desk-nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+          </ul>
+    </header>
+    <section class ="landing all-content my-page">       
+    <div class="info-box">
+        <div id="greeting">
+            <h1>I'm John Glad to see you</h1>
+        </div>
+        <div id="about">
+            <p>
+                I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+            </p>
+        </div>
+        <div id="socials">
+            <h2 id="connect">LET'S CONNECT</h2>
+        </div>    
+    <ul id="social-icons"> 
+        <li><a href="https://twitter.com/hombr_el"> <img src="./media/Twitter.svg" alt="Twitter-icon"></a></li>
+        <li><a href="https://www.linkedin.com/in/john-thiongo-10484347/"> <img src="./media/linkedin.png" alt="linkedin-icon"></a></li>
+        <li><a href="https://medium.com/@tjaymurianki"> <img src="./media/medium.svg" alt="Medium-icon"></a></li>
+        <li><a href="https://github.com/tjay1760"> <img src="./media/github.svg" alt="Github-icon"></a></li>
+        <li><a href="https://angel.co/"> <img src="./media/Vector (3).svg" alt="Angelist-icon"></a></li>
+    </ul>
+            
+    </div>
+            
+    </section>
+    <!--Dynamic Mobile-->
+    <section class="dynamic-mobile my-page" id="dynamic-mobile">
+    </section>   
+    <!--Mobile Popup-->
+    <div class="mobile-popup mobile-works hide-mobile-popup" id="mobile-popup">
+        
+    </div>
+         <!--Dynamic Desktop-->
+         <section class="dynamic-desktop my-page" id="dynamic-desktop">
+        </section> 
+    <!-- Desktop popup section -->
+<div class="desktop-popup desktop-works hide-desktop-popup" id="desktop-popup"></div>
+<section id="about-group">
+    <section class="about all-content my-page">
+        <h2 id="about-me">About Myself</h2>
+        <p id="about-myself">Hello I'm a software developer! I can help you build a product , feature or website Look
+          through some of my work and experience! If you like what you see and have a project you need coded, don't
+          hesitiate to contact me.</p>
+          <div id="socials">
+            <h2 id="connect">LET'S CONNECT</h2>
+        </div>  
+        <ul id="social-icons"> 
+            <li><a href="https://twitter.com/hombr_el"> <img src="./media/Twitter.svg" alt="Twitter-icon"></a></li>
+            <li><a href="https://www.linkedin.com/in/john-thiongo-10484347/"> <img src="./media/linkedin.png" alt="linkedin-icon"></a></li>
+            <li><a href="https://medium.com/@tjaymurianki"> <img src="./media/medium.svg" alt="Medium-icon"></a></li>
+            <li><a href="https://github.com/tjay1760"> <img src="./media/github.svg" alt="Github-icon"></a></li>
+            <li><a href="https://angel.co/"> <img src="./media/Vector (3).svg" alt="Angelist-icon"></a></li>
+        </ul>
+        <button id="get-resume">Get my resume</button>
+    </section>
+    <section class="my-languages all-content my-page">
+        <ul class="prog-languages">
+            <li id="languages-header">Languages</li>
+            <li>
+              <img src="./media/top-arrow.svg" alt="" />
+            </li>
+          </ul>
+          <ul class="languages-list">
+            <li class="item"><img src="./media/JAvascrips.png" width="48" height="48" alt="javascript">JavaScript</li>
+            <li class="item"><img src="./media/html.png" width="48" height="48" alt="HTML">HTML</li>
+            <li class="item"><img src="./media/css.png" width="48" height="48" alt="CSS">CSS</li>
+          </ul>
+          <ul class="frameworks">
+            <li id="frameworks-1">Frameworks<img src="./media/arrowleft.jpeg" alt="arrow"></li>
+            <hr>
+            <li id="frameworks-2">Skills <img src="./media/arrowleft.jpeg" alt="arrow"></li>
+            <hr>
+          </ul>
+    </section>
+</section>
+
+<section class ="my-page" id="contacts">
+<div id="contact-container">
+    <h2 id="contact-me">Contact me</h2>
+    <p id ="my-contact-me">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+    <form class="form" action="https://formspree.io/f/xyyazqwv" method="post">
+        <div>
+          <input class="my-name" type="text" name="myName" placeholder="Your name" maxlength="30" required>
+        </div><br>
+        <div>
+          <input class="contactform-email" id="contactform-email" type="email" name="myEmail" placeholder="myEmail@gmail.com" required>
+        </div><br>
+        <div>
+          <textarea class="my-message" name="myText" maxlength="500" cols="30" rows="10"
+            placeholder="Write your message here" required></textarea>
+        </div>
+        <br>
+        <button type="submit" class="get-in-touch">Get in touch</button>
+      </form>
+      <img id="underline" src ="./media/underline.png">
+</div>
+</section>
+</body>
+<script src="./script.js"></script>
+</html>
